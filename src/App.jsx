@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Section from './components/Section';
+import HelpfulResource from './components/HelpfulResource';
 
 function App() {
   return (
@@ -23,6 +24,20 @@ function App() {
             <li>Large Ecosystem: Supported by a vast community, offering a rich collection of libraries, tools, and resources like Redux and React Router.</li>
             <li>Cross-Platform Development: Using React Native, developers can build native mobile applications for iOS and Android with the same principles.</li>
           </ul>
+        </Section>
+        <Section title="Helpful resources">
+          <HelpfulResource
+            label="Official React Documentation"
+            link="https://react.dev/"
+          />
+          <HelpfulResource
+            label="MDN Web Docs: React"
+            link="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started"
+          />
+          <HelpfulResource
+            label="React in 100 Seconds Video"
+            link="https://www.youtube.com/watch?v=Tn6-PIqc4UM"
+          />
         </Section>
       </main>
     </div>
